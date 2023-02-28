@@ -1,0 +1,70 @@
+.menu {
+    width: 100%;
+    font-family:cursive;
+    background-color:rgb(0, 0, 83) ;
+    color:#b64869;
+    font-size: x-large;
+    
+}
+
+.h1 {
+    margin-left: 50px;
+    color:antiquewhite;
+}
+
+.colorletra {
+    color: antiquewhite;
+}
+
+
+.fotomia {
+    max-width: 500px;
+   }
+
+.main {
+    background-image: url('./images/fotoCodigo2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color:cornsilk; */
+    padding: 5%;
+    width: 80vp;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.sobreMi {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.tituloSobreMi {
+    color:aliceblue
+
+}
+
+.divider {
+    height: 4px;
+    width: 80px;
+    background-color: #b64869;
+    margin-bottom: 50px;
+
+}
+.parrafoSobreMi {
+    background-color: #98dfe7;
+    color:darkblue;
+    padding: 20px;
+    /* color: #b64869; */
+}
+
+.iconoSobreMi {
+    font-size:50px;
+    color:aliceblue;
+}
+
+.inconoSobreMi2 {
+    font-size:50px;
+    /* margin-left: 100px; */
+    margin-top: 40px;
+    color:#b64869;
+}
