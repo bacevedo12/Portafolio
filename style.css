@@ -68,3 +68,54 @@
     margin-top: 40px;
     color:#b64869;
 }
+
+.portafolio {
+    background-image: url('./images/fotoProgramacion.jpg');
+    /* background-color:darkgray; */
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloPortafolio {
+    color:#742b5b;
+    background-color:#98dfe7;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card1 {
+    background-color:#ffc7ab ;
+    border-radius: 10px;
+}
+
+.card2 {
+    background-color:#98dfe7;
+    border-radius: 10px;
+}
+
+.imagencard {
+    border-radius: 20%;
+}
+.tituloCard {
+    color:  #8e3c68;
+  
+}
+
+.card-text {
+    color:palevioletred ;
+}
+
+.cardbody2 {
+    background-color: aliceblue;
+    
+}
+
+.btnAcordion {
+    background-color: #742b5b;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.iconos2 {
+    color:aliceblue;
+    font-weight: bold;
+}
