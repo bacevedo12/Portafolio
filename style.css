@@ -120,6 +120,20 @@
     font-weight: bold;
 }
 
+.seccionInsignias {
+    background-color: #742b5b;
+    padding: 40px;
+}
+.tituloInsignias {
+    color:rgb(4, 4, 178); 
+    margin-left: 150px;
+  }
+  
+  .fotosInsignias {
+      width: 400px;
+      margin-left: 20px;
+  }
+  
 .contacto {
     background-image: url('./images/fotoCodigo.jpg');
     justify-content: center;
@@ -141,16 +155,23 @@
 }
 
 .logoInstagram {
-    width: 50px;
+    width: 70px;
     margin-right: 20px;
     margin-top: 20px;
+    border-radius: 30%;
 }
 
 .footer {
+    width: 100%;
     background-color:rgb(0, 0, 83); 
     color: antiquewhite;
     font-weight: bold;
+    font-size: x-large;
        
+}
+
+.fotoFooter {
+    border-radius: 50%;
 }
 
 .parrafoFooter {
@@ -174,15 +195,53 @@
     margin: 50px;
    }
 
+   .tituloInsignias {
+      margin-left: 70px;
+   }
+
+   .fotosInsignias {
+     margin-bottom: 10px;
+   }
+
+   .footer {
+    font-size: large;
+   }
+
 }
+
+@media screen and (max-width:750px){
+    .footer {
+        /* margin-left: 20px; */
+    }
+
+    .nombreFooter {
+        margin-top: 30px;
+    }
+}
+
 @media screen and (max-width:650px){
+    .menu {
+        font-size: large;
+    }
     .fotomia {
         max-width: 300px;
+    }
+
+    .fotosInsignias {
+        width: 300px;
+    }
+
+    .footer {
+        font-size: x-large;
     }
 }
 
 @media screen and (max-width:450px){
     .fotomia {
         max-width: 250px;
+    }
+
+    .footer {
+        font-size: large;
     }
 }
