@@ -139,3 +139,50 @@
   background-color:darkblue;
   color: aliceblue;
 }
+
+.logoInstagram {
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color:rgb(0, 0, 83); 
+    color: antiquewhite;
+    font-weight: bold;
+       
+}
+
+.parrafoFooter {
+    color:#b64869;
+}
+
+
+
+
+@media screen and (max-width:950px){
+   .h1 {
+    margin-left: 10px;
+   }
+
+   .main {
+    grid-template-columns: none;
+   }
+
+   .fotomia {
+    max-width: 400px;
+    margin: 50px;
+   }
+
+}
+@media screen and (max-width:650px){
+    .fotomia {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .fotomia {
+        max-width: 250px;
+    }
+}
