@@ -119,3 +119,23 @@
     color:aliceblue;
     font-weight: bold;
 }
+
+.contacto {
+    background-image: url('./images/fotoCodigo.jpg');
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.tituloContacto {
+    color: aqua;
+}
+
+.formulario {
+    background-color: aqua;
+}
+
+.btnContacto {
+  background-color:darkblue;
+  color: aliceblue;
+}
