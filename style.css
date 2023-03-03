@@ -139,6 +139,7 @@
   .fotosInsignias {
       width: 400px;
       margin-left: 20px;
+      margin-bottom: 20px;
   }
   
 .contacto {
@@ -187,12 +188,17 @@
     color:#ba35a6;
 }
 
+
+
+
+
 @media screen and (max-width:1000px){
     .btnNavbar {
       margin-bottom: 20px;
       margin-left: 100px;
       
     }
+
 }
 
 @media screen and (max-width:950px){
@@ -217,10 +223,6 @@
 
    .tituloInsignias {
       margin-left: 70px;
-   }
-
-   .fotosInsignias {
-     margin-bottom: 20px;
    }
 
    .footer {
