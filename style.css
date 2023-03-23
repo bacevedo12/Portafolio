@@ -137,7 +137,7 @@
   }
   
   .fotosInsignias {
-      width: 400px;
+      width: 350px;
       margin-left: 20px;
       margin-bottom: 20px;
   }
@@ -225,6 +225,9 @@
       margin-left: 70px;
    }
 
+   .fotosInsignias {
+      margin-left: 50px;
+   }
    .footer {
     font-size: large;
    }
