@@ -137,11 +137,16 @@
   }
   
   .fotosInsignias {
-      width: 350px;
+      width: 400px;
       margin-left: 20px;
       margin-bottom: 20px;
   }
   
+  .fotosInsignias1 {
+    width: 600px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+  }
 .contacto {
     max-width: 100%;
     background-image: url('./images/fotoCodigo.jpg');
